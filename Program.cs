@@ -19,8 +19,16 @@ namespace L6Trees
         private string item;
 
         //Methods
-        public Node(string item) { }
-        public void addNode(string item) {}
+        public Node(string item)
+        { 
+            this.left = null
+            this.right = null
+            this.item = null
+        }
+        public void addNode(string item)
+        {
+            
+        }
         public Boolean findNode(string item) { return true; }
         public Boolean deleteNote(string item) { return true; }
         void printTree() { }
